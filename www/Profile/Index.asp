@@ -1,0 +1,1 @@
+<% response.Redirect("Edit.asp") %>

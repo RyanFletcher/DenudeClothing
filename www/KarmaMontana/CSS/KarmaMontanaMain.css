@@ -1,0 +1,123 @@
+/*Copyright of Ryan Fletcher - DENUDE Ltd */
+@charset "UTF-8";
+/* CSS Document */
+body { margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 15px; line-height: 18px; font-weight:lighter; color: #666;  }
+p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 15px; font-weight:lighter; }
+		p#title { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:x-large; font-weight:lighter;}
+		p#FormLabel { font-size:15px; color: #42454a;}
+a { font-size: 15px; padding: 3px; color:#CCC; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; border: none; text-decoration: none; }
+		a:hover { font-size: 15px; padding: 3px; color:#900; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; border: none; text-decoration: none;}
+		a#selected { cursor:default; font-size: 15px; padding: 3px; color:#000000; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; border:none; text-decoration:line-through; }
+div.tabContent { border: 1px solid #000000; border-radius:4px; padding: 1.0em; background-color: #000; }
+div.tabContent.hide { display: none; }
+		td#Menu { border-top: 1px solid #CCC; border-left: none; border-right: none; }
+		td#Footer { border-bottom: none; border-top: 1px solid #CCC; border-left: none; border-right: none; }
+		td#HeaderLeft { border-radius: 2px;  padding-top:5px; border-bottom: 1px solid #CCC; border-right: 1px solid #CCC; border-left: none; border-top: none;}
+		td#HeaderRight { border-radius: 2px; padding-top:5px; border-bottom: none; border-right: none; border-left: none; border-top: 1px solid #CCC;}
+		li#blank {color:#dedbde;}
+.Header { color:#666; border: 1px solid; border-top:none; border-bottom: 1px solid #666; border-right:none; border-left:none; }
+.Color1 { color:#000; background-color:#F00 }
+
+textarea { height: auto;}
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input { display: inline-block; height: 18px; padding: 4px; margin-bottom: 9px; font-size: 15px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:lighter; line-height: 20px; color: ##09F; }
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input { background-color: #ffffff; border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(153,0,0,1);
+     -moz-box-shadow: inset 0 1px 1px rgba(153,0,0,1);
+          box-shadow: inset 0 1px 1px rgba(153,0,0,1);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+     -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+      -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+       -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+          transition: border linear 0.2s, box-shadow linear 0.2s; }
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(153,0,0,1);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(255,0,0,1), 0 0 8px rgba(255,0,0,1);
+     -moz-box-shadow: inset 0 1px 1px rgba(255,0,0,1), 0 0 8px rgba(255,0,0,1);
+          box-shadow: inset 0 1px 1px rgba(255,0,0,1), 0 0 8px rgba(255,0,0,1);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 3px 0;
+  *margin-top: 0;
+  /* IE7 */
+
+  line-height: normal;
+  cursor: pointer;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"] {
+  background-color:#FFF;	
+  font-size: 15px;
+  color:#CCC;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:lighter;
+  border: 1px solid #CCC;
+
+}
+
+input:hover[type="submit"] { background-color: #FFF; font-size: 15px; color:#000000; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:lighter; border: 1px solid #CCC;}
+
+/*Copyright of Ryan Fletcher - Denude Clothing Ltd */
+@charset "UTF-8";
+/* CSS Document */
+ul#tabs {list-style-type:none;margin: 10px 0 0 0; padding: 0 0 0.1em 0;font-size:14px;}
+ul#tabs li { display: inline; }
+
